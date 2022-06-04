@@ -1,0 +1,9 @@
+each app provides some mode of functionality to the main site 
+
+django app structures: 
+    migrations  
+    admin- define how the admin interface works  
+    apps- configure app 
+    models- define model classes for app 
+    tests- write unit tests 
+    views- a request handler. Mosh says that it's misleadingly named. 

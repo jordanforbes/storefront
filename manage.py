@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
+
+####a wrapper around django-admin. use instead of django-admin because it takes the settings into account
 import os
 import sys
 

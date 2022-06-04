@@ -1,3 +1,5 @@
+####define application settings
+
 """
 Django settings for storefront project.
 
@@ -20,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-gixiy!8swx(vqi1gh&xn=!4s10&4xijsny^53l-la+tc2q6%2+'
+SECRET_KEY = 'django-insecure-m3pk3dberiermv^7*1$w(0ohu2xgxme3p&b48&@9s*+7nj8-zg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,12 +33,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.admin', #gives admin interface
+    'django.contrib.auth', #authenticating user
+    'django.contrib.contenttypes', 
+    #'django.contrib.sessions', #legacy, temporary memory on the server. unnecessary with modern django
+    'django.contrib.messages',  #displaying one time notifications to the user 
+    'django.contrib.staticfiles', #display static elements such as images
 ]
 
 MIDDLEWARE = [

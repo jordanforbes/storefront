@@ -1,0 +1,9 @@
+python manage.py runserver
+    runs server. I guess that's obvious. 
+
+python manage.py runserver 9000
+    run server on port 9000. chang it to anything. 
+
+
+python manage.py startapp appname  
+    create new app folder 
