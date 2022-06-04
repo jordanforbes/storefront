@@ -8,6 +8,11 @@ from django.http import HttpResponse
 # request handler. In many frameworks this is called an "action"
 # django uses templates the way that other frameworks use views 
 
+def calculate():
+    x = 1 
+    y = 2
+    return x
+
 def say_hello(request):
-    # return HttpResponse('Hello World') 
-    return render(request, 'hello.html')
+    x = calculate()
+    return render(request, 'hello.html', {'name': 'Jordan'})
