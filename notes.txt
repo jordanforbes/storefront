@@ -7,3 +7,11 @@ django app structures:
     models- define model classes for app 
     tests- write unit tests 
     views- a request handler. Mosh says that it's misleadingly named. 
+
+upon creating an app with startapp, the app should be registered in the settings.py file in the main storefront project folder 
+
+Storefront is the project, playground is the app  
+
+
+mapping views to urls 
+    create urls.py file in app folder  

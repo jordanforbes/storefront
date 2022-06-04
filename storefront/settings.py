@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     #'django.contrib.sessions', #legacy, temporary memory on the server. unnecessary with modern django
     'django.contrib.messages',  #displaying one time notifications to the user 
     'django.contrib.staticfiles', #display static elements such as images
+    'playground' #created app folder
 ]
 
 MIDDLEWARE = [
